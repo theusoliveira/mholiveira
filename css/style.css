@@ -176,32 +176,39 @@ section {
 .timeline-section {
   background-color: #fff;
 }
+
 .timeline-section .section-title {
   color: #121212;
 }
+
 .main-timeline {
   padding-top: 2rem;
 }
+
 .main-timeline:after{
   content: '';
   display: block;
   clear: both;
 }
+
 .main-timeline .timeline{
   width: 80%;
   padding: 0 0 0 50px;
   margin: 0 0 30px;
   float: left;
 }
+
 .main-timeline .timeline-content{
   border-radius: 30px;
   display: block;
   position: relative;
   border:1px solid #000;
 }
+
 .main-timeline .timeline-content:hover {
   text-decoration: none;
 }
+
 .main-timeline .timeline-content:before{
   content: '';
   background: #7159C1;
@@ -215,6 +222,7 @@ section {
   bottom: -10px;
   z-index: 1;
 }
+
 .main-timeline .timeline-icon{
   background: #fff;
   font-size: 45px;
@@ -230,21 +238,25 @@ section {
   left: -30px;
   z-index: 1;
 }
+
 .main-timeline .img-timeline {
   max-width: 100%;
   height: auto;
   padding: 0px 10px 10px 7px;
 }
+
 .main-timeline .img-timeline-puc {
   max-width: 100%;
   height: auto;
   padding: 0px 7px 22px 7px;
 }
+
 .main-timeline .inner-content{
   background-color: transparent;
   padding: 15px 30px 15px 130px;
   border-radius: 30px;
 }
+
 .main-timeline .title{
   color: #7159C1;
   font-size: 20px;
@@ -253,6 +265,7 @@ section {
   text-transform: uppercase;
   margin: 0 0 10px;
 }
+
 .main-timeline .subtitle{
   color: #7159C1;
   font-size: 15px;
@@ -261,26 +274,31 @@ section {
   text-transform: uppercase;
   margin: 0 0 10px;
 }
+
 .main-timeline .description{
   color: #a1a1a1;
   font-size: 14px;
   letter-spacing: 1px;
   margin: 0;
 }
+
 .main-timeline .timeline:nth-child(even){
   padding: 0 50px 0 0;
   margin: 0 0 30px;
   float: right;
 }
+
 .main-timeline .timeline:nth-child(even) .timeline-content:before{
   transform: translateY(-50%) rotate(225deg);
   left: auto;
   right: -40px;
 }
+
 .main-timeline .timeline:nth-child(even) .timeline-icon{
   left: auto;
   right: -30px;
 }
+
 .main-timeline .timeline:nth-child(even) .inner-content{ padding: 15px 130px 15px 30px; }
 .main-timeline .timeline:nth-child(4n+2) .timeline-content:before{ background: #a1a1a1; }
 .main-timeline .timeline:nth-child(4n+2) .title{ color: #121212; }
