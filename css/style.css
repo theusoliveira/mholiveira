@@ -16,6 +16,15 @@ body {
   transition: 0.3s;
 }
 
+a {
+  color: #8d8d8d;
+}
+
+a:hover {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
 a:focus,
 .button:focus, button:focus {
   text-decoration: none;
@@ -157,9 +166,9 @@ section {
   width: 100%;
 }
 
-.about_me .download-button {
+.about_me .download-link {
   color: #fff !important;
-  cursor: pointer;
+  font-weight: 700;
 }
 /* END ABOUT */
 
@@ -195,7 +204,6 @@ section {
 }
 .main-timeline .timeline-content:before{
   content: '';
-  /* background: linear-gradient(45deg,#fff,#7159C1); */
   background: #7159C1;
   height: 120px;
   width: 120px;
@@ -208,7 +216,6 @@ section {
   z-index: 1;
 }
 .main-timeline .timeline-icon{
-  /* background: linear-gradient(105deg,#fff,#7159C1); */
   background: #fff;
   font-size: 45px;
   text-align: center;
@@ -363,40 +370,25 @@ License Terms
   margin-top: 15px;
 }
 
-.site-footer .social-icon-linkedin {
+.site-footer .social-icon {
   font-size: 25px;
-  color: #8d8d8d !important;
   transition: all 0.2s;
 }
 
 .site-footer .social-icon-linkedin:hover {
-  font-size: 25px;
   color: #4d98fc !important;
-  cursor: pointer;
-}
-
-.site-footer .social-icon-github {
-  font-size: 25px;
-  color: #8d8d8d !important;
-  transition: all 0.2s;
 }
 
 .site-footer .social-icon-github:hover {
-  font-size: 25px;
   color: #fff !important;
-  cursor: pointer;
-}
-
-.site-footer .social-icon-instagram {
-  font-size: 25px;
-  color: #8d8d8d !important;
-  transition: all 0.2s;
 }
 
 .site-footer .social-icon-instagram:hover {
-  font-size: 25px;
   color: #c21b4d !important;
-  cursor: pointer;
+}
+
+.site-footer .social-icon-whatsapp:hover {
+  color: #25D366 !important;
 }
 
 .site-footer .author-name {
