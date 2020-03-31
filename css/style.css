@@ -362,49 +362,53 @@ License Terms
 
 /* FOOTER */
 .site-footer {
-  margin-top: 5em;
+  margin-top: 15px;
 }
 
 .site-footer .social-icon-linkedin {
-  font-size: 2.5rem;
+  font-size: 25px;
   color: #8d8d8d !important;
 }
 
 .site-footer .social-icon-linkedin:hover {
-  font-size: 2.5rem;
+  font-size: 25px;
   color: #4d98fc !important;
   cursor: pointer;
 }
 
 .site-footer .social-icon-github {
-  font-size: 2.5rem;
+  font-size: 25px;
   color: #8d8d8d !important;
 }
 
 .site-footer .social-icon-github:hover {
-  font-size: 2.5rem;
+  font-size: 25px;
   color: #fff !important;
   cursor: pointer;
 }
 
 .site-footer .social-icon-instagram {
-  font-size: 2.5rem;
+  font-size: 25px;
   color: #8d8d8d !important;
 }
 
 .site-footer .social-icon-instagram:hover {
-  font-size: 2.5rem;
+  font-size: 25px;
   color: #c21b4d !important;
   cursor: pointer;
 }
 
 .site-footer .author-name {
-  font-size: 1rem;
+  font-size: 12.5px;
   color: #8d8d8d !important;
 }
 
 .site-footer .author {
-  margin-top: 1rem;
+  margin-top: 1px;
+}
+
+.site-footer .mail-contact {
+  font-size: 15px;
 }
 
 @media (max-width: 767px) {
