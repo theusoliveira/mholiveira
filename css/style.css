@@ -158,55 +158,10 @@ section {
 }
 
 .about_me .download-button {
-  background: #2f89fc;
-  color: #fff;
-  display: inline-block;
-  padding: 14px 38px;
-  font-size: 14px;
-  font-weight: 500;
-  border: 0;
-  border-radius: 0px;
-  text-align: center;
   color: #fff !important;
   cursor: pointer;
 }
-
-.about_me .download-button:hover {
-  background: #4d98fc;
-}
 /* END ABOUT */
-
-/* HABILIDADES */
-.skills {
-  background-color: #222222;
-}
-
-.skills .skills-icons {
-  padding: 0 5rem 0 5rem;
-}
-
-@media (max-width: 767px) {
-  .skills .skills-icons {
-    padding: 0 0 0 0;
-  }
-  .skills .skill-link {
-    color:#8d8d8d !important;
-    font-size: 3rem !important;
-    cursor: pointer;
-  }
-}
-
-.skills .skill-link {
-  color:#8d8d8d !important;
-  font-size: 5rem;
-  cursor: pointer;
-  padding: 0 1.5rem 0 1.5rem;
-}
-
-.skills .skill-link:hover {
-  color:#fff !important;
-}
-/* HABILIDADES */
 
 /* LINHA DO TEMPO */
 .timeline-section {
@@ -360,6 +315,39 @@ section {
 License Terms
 /* LINHA DO TEMPO */
 
+/* HABILIDADES */
+.skills {
+  background-color: #222222;
+}
+
+.skills .skills-icons {
+  padding: 0 5rem 0 5rem;
+}
+
+@media (max-width: 767px) {
+  .skills .skills-icons {
+    padding: 0 0 0 0;
+  }
+  .skills .skill-link {
+    color:#8d8d8d !important;
+    font-size: 3rem !important;
+    cursor: pointer;
+  }
+}
+
+.skills .skill-link {
+  color:#8d8d8d !important;
+  font-size: 5rem;
+  cursor: pointer;
+  padding: 0 1.5rem 0 1.5rem;
+  transition: all 0.2s;
+}
+
+.skills .skill-link:hover {
+  color:#fff !important;
+}
+/* HABILIDADES */
+
 /* FOOTER */
 .site-footer {
   margin-top: 15px;
@@ -368,6 +356,7 @@ License Terms
 .site-footer .social-icon-linkedin {
   font-size: 25px;
   color: #8d8d8d !important;
+  transition: all 0.2s;
 }
 
 .site-footer .social-icon-linkedin:hover {
@@ -379,6 +368,7 @@ License Terms
 .site-footer .social-icon-github {
   font-size: 25px;
   color: #8d8d8d !important;
+  transition: all 0.2s;
 }
 
 .site-footer .social-icon-github:hover {
@@ -390,6 +380,7 @@ License Terms
 .site-footer .social-icon-instagram {
   font-size: 25px;
   color: #8d8d8d !important;
+  transition: all 0.2s;
 }
 
 .site-footer .social-icon-instagram:hover {
@@ -400,7 +391,7 @@ License Terms
 
 .site-footer .author-name {
   font-size: 12.5px;
-  color: #8d8d8d !important;
+  color: #8d8d8d;
 }
 
 .site-footer .author {
@@ -409,6 +400,12 @@ License Terms
 
 .site-footer .mail-contact {
   font-size: 15px;
+  transition: all 0.2s;
+  color: #8d8d8d;
+}
+
+.site-footer .mail-contact:hover {
+  color: #fff;
 }
 
 @media (max-width: 767px) {
