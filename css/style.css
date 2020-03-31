@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
   background-color: #121212;
@@ -34,7 +34,7 @@ a:hover,
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
 }
 
@@ -80,7 +80,7 @@ p {
   line-height: 28px;
   color: #4D4D4D;
   margin-bottom: 13px;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 section {
