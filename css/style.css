@@ -348,6 +348,16 @@ License Terms
 }
 /* HABILIDADES */
 
+/* PORTFOLIO */
+.portfolio {
+  background-color: #fff;
+}
+
+.portfolio .section-title {
+  color: #000;
+}
+/* PORTFOLIO */
+
 /* FOOTER */
 .site-footer {
   margin-top: 15px;
