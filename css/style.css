@@ -111,6 +111,181 @@ section {
   }
 }
 
+/* HEADER */
+.sticky-wrapper {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
+  .sticky-wrapper .site-navbar {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+  }
+  .sticky-wrapper .site-navbar .site-menu-toggle {
+    color: #fff;
+  }
+    .sticky-wrapper .site-navbar .site-menu-toggle .icon-menu {
+      color: #fff;
+    }
+  .sticky-wrapper .site-navbar .site-menu > li > a {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+    .sticky-wrapper .site-navbar .site-menu > li > a:hover {
+      color: #fff !important;
+    }
+    .sticky-wrapper .site-navbar .site-menu > li > a.active {
+      color: #fff !important;
+      border-bottom: 1px solid;
+      opacity: 1;
+      line-height: 20px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle {
+        color: #fff;
+      }
+    .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
+      color: rgba(255, 255, 255, 0.7) !important;
+    }
+      .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
+        color: #fff !important;
+      }
+      .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
+        color: #fff !important;
+        border-bottom: 1px solid;
+        opacity: 1;
+        line-height: 20px;
+        padding-left: 0;
+        padding-right: 0;
+      }
+  .sticky-wrapper .shrink {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+/* HEADER */
+
+/* MOBILE MENU */
+.hamburger {
+  position: fixed;
+  right: 1em;
+  top: 1em;
+  z-index: 4;
+  background: #a1a1a1;
+  color: #3c3c3b;
+  padding: 11px 1px 0 2px;
+  display: block;
+  text-align: center;
+  line-height: 0;
+  border-radius: 30px;
+  width: 2em;
+  height: 2em;
+  font-size: 1.4em;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.site-mobile-menu {
+  width: 300px;
+  position: fixed;
+  right: 0;
+  z-index: 2000;
+  padding-top: 20px;
+  background: #202020;
+  height: calc(100vh);
+  -webkit-transform: translateX(110%);
+  -ms-transform: translateX(110%);
+  transform: translateX(110%);
+  -webkit-box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+.offcanvas-menu .site-mobile-menu {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+}
+.site-mobile-menu .site-mobile-menu-header {
+  width: 100%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close {
+  float: right;
+  margin-top: 8px;
+}
+.site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span {
+  font-size: 30px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 0px;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  color: #a1a1a1;
+}
+.site-mobile-menu .site-mobile-menu-body {
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  padding: 0 20px 0 20px;
+  height: calc(100vh - 52px);
+  transition: .3s all ease;
+  top: 50px;
+}
+.site-mobile-menu .mobile-menu-ul a {
+  padding: 10px 20px;
+  display: block;
+  position: relative;
+  color: #a1a1a1 !important;
+  transition: .3s all ease;
+}
+.site-mobile-menu .mobile-menu-ul a:hover {
+  color: #fff !important;
+}
+.site-mobile-menu .mobile-menu-ul a:focus {
+  color: #fff !important;
+  opacity: 1;
+  font-weight: 700;
+}
+.site-mobile-menu .mobile-menu-ul > li > a {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.site-mobile-menu .mobile-menu-ul > li > a {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.site-mobile-menu .mobile-menu-ul > li > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.site-mobile-menu .mobile-menu-ul > li > ul > li {
+  display: block;
+}
+.site-mobile-menu .mobile-menu-ul > li > ul > li > a {
+  padding-left: 40px;
+  font-size: 16px;
+}
+.site-mobile-menu .mobile-menu-ul > li > ul > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.site-mobile-menu .mobile-menu-ul > li > ul > li > ul > li {
+  display: block;
+}
+.site-mobile-menu .mobile-menu-ul > li > ul > li > ul > li > a {
+  font-size: 16px;
+  padding-left: 60px;
+}
+/* MOBILE MENU */
+
+
 /* MAIN */
 /* MAIN */
 
