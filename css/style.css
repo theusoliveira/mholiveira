@@ -111,60 +111,6 @@ section {
   }
 }
 
-/* HEADER */
-.sticky-wrapper {
-  position: absolute;
-  z-index: 100;
-  width: 100%;
-}
-  .sticky-wrapper .site-navbar {
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
-  }
-  .sticky-wrapper .site-navbar .site-menu-toggle {
-    color: #fff;
-  }
-    .sticky-wrapper .site-navbar .site-menu-toggle .icon-menu {
-      color: #fff;
-    }
-  .sticky-wrapper .site-navbar .site-menu > li > a {
-    color: rgba(255, 255, 255, 0.7) !important;
-  }
-    .sticky-wrapper .site-navbar .site-menu > li > a:hover {
-      color: #fff !important;
-    }
-    .sticky-wrapper .site-navbar .site-menu > li > a.active {
-      color: #fff !important;
-      border-bottom: 1px solid;
-      opacity: 1;
-      line-height: 20px;
-      padding-left: 0;
-      padding-right: 0;
-    }
-    .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle {
-        color: #fff;
-      }
-    .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
-      color: rgba(255, 255, 255, 0.7) !important;
-    }
-      .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
-        color: #fff !important;
-      }
-      .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-        color: #fff !important;
-        border-bottom: 1px solid;
-        opacity: 1;
-        line-height: 20px;
-        padding-left: 0;
-        padding-right: 0;
-      }
-  .sticky-wrapper .shrink {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-  }
-/* HEADER */
-
 /* MOBILE MENU */
 .hamburger {
   position: fixed;
@@ -237,20 +183,20 @@ section {
   transition: .3s all ease;
   top: 50px;
 }
-.site-mobile-menu .mobile-menu-ul a {
+.site-mobile-menu .mobile-menu-ul .nav-item a {
   padding: 10px 20px;
   display: block;
   position: relative;
   color: #a1a1a1 !important;
   transition: .3s all ease;
 }
-.site-mobile-menu .mobile-menu-ul a:hover {
-  color: #fff !important;
-}
-.site-mobile-menu .mobile-menu-ul a:focus {
+.site-mobile-menu .mobile-menu-ul .nav-item a.active{
   color: #fff !important;
   opacity: 1;
   font-weight: 700;
+}
+.site-mobile-menu .mobile-menu-ul a:hover {
+  color: #fff !important;
 }
 .site-mobile-menu .mobile-menu-ul > li > a {
   padding-left: 20px;
