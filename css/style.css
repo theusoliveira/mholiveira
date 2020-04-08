@@ -232,59 +232,59 @@ section {
 .site-mobile-menu .site-mobile-menu-body {
   -webkit-overflow-scrolling: touch;
   position: relative;
-  padding: 0px 20px 20px 20px;
+  padding: 0 20px 0 20px;
   height: calc(100vh - 52px);
   transition: .3s all ease;
   top: 50px;
 }
-.site-mobile-menu .site-nav-wrap a {
+.site-mobile-menu .mobile-menu-ul a {
   padding: 10px 20px;
   display: block;
   position: relative;
   color: #a1a1a1 !important;
   transition: .3s all ease;
 }
-.site-mobile-menu .site-nav-wrap a:hover {
+.site-mobile-menu .mobile-menu-ul a:hover {
   color: #fff !important;
 }
-.site-mobile-menu .site-nav-wrap li {
-  position: relative;
-  display: block;
-}
-.site-mobile-menu .site-nav-wrap li .active {
+.site-mobile-menu .mobile-menu-ul a:focus {
   color: #fff !important;
   opacity: 1;
-  line-height: 20px;
   font-weight: 700;
 }
-.site-mobile-menu .site-nav-wrap > li > a {
+.site-mobile-menu .mobile-menu-ul > li > a {
   padding-left: 20px;
   font-size: 20px;
 }
-.site-mobile-menu .site-nav-wrap > li > ul {
+.site-mobile-menu .mobile-menu-ul > li > a {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.site-mobile-menu .mobile-menu-ul > li > ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-.site-mobile-menu .site-nav-wrap > li > ul > li {
+.site-mobile-menu .mobile-menu-ul > li > ul > li {
   display: block;
 }
-.site-mobile-menu .site-nav-wrap > li > ul > li > a {
+.site-mobile-menu .mobile-menu-ul > li > ul > li > a {
   padding-left: 40px;
   font-size: 16px;
 }
-.site-mobile-menu .site-nav-wrap > li > ul > li > ul {
+.site-mobile-menu .mobile-menu-ul > li > ul > li > ul {
   padding: 0;
   margin: 0;
 }
-.site-mobile-menu .site-nav-wrap > li > ul > li > ul > li {
+.site-mobile-menu .mobile-menu-ul > li > ul > li > ul > li {
   display: block;
 }
-.site-mobile-menu .site-nav-wrap > li > ul > li > ul > li > a {
+.site-mobile-menu .mobile-menu-ul > li > ul > li > ul > li > a {
   font-size: 16px;
   padding-left: 60px;
 }
 /* MOBILE MENU */
+
 
 /* MAIN */
 /* MAIN */
