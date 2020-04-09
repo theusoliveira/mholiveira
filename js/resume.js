@@ -17,7 +17,8 @@
 
   $('.js-scroll-trigger').click(function() {
     $(".nav-item .active").removeClass('active');
-    $(this).addClass('active'); 
+    $(this).addClass('active');
+    $('body').removeClass('offcanvas-menu');
     e.preventDefault();
   });
 
