@@ -232,6 +232,38 @@ section {
 
 
 /* MAIN */
+.home {
+  height: 100vh;
+}
+
+.home .principal-text {
+  position: absolute;
+  top: 30%;
+}
+
+.home .principal-text .hello {
+  font-weight: 500;
+  font-size: 40px;
+  color: #67F6C6;
+}
+
+.home .principal-text .name {
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.home .principal-text .resume {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .home .principal-text .hello {
+    font-size: 25px;
+  }
+  .home .principal-text .name {
+    font-size: 60px;
+  }
+}
 /* MAIN */
 
 /* ABOUT */
@@ -261,25 +293,6 @@ section {
 
 .about_me .about_img {
   position: relative;
-}
-
-.about_me .about_img .color_pattern {
-  position: absolute;
-  right: -80px;
-  top: -123px;
-  z-index: -1;
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .about_me .about_img .color_pattern {
-    right: 0;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  .about_me .about_img .color_pattern {
-    right: 0;
-  }
 }
 
 .about_me .about_img .my_Pic img {
