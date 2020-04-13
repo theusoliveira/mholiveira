@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap');
+
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
-  background-color: #121212;
+  background-color: #2C2B34;
 }
 
 .img {
@@ -43,7 +43,6 @@ a:hover,
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Roboto", sans-serif;
   color: #fff;
 }
 
@@ -89,7 +88,6 @@ p {
   line-height: 28px;
   color: #4D4D4D;
   margin-bottom: 13px;
-  font-family: "Roboto", sans-serif;
 }
 
 section {
