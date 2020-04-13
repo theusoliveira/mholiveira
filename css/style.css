@@ -238,7 +238,7 @@ section {
 
 .home .principal-text {
   position: absolute;
-  top: 30%;
+  top: 33.3%;
 }
 
 .home .principal-text .hello {
@@ -254,6 +254,21 @@ section {
 
 .home .principal-text .resume {
   color: #fff;
+}
+
+.home .principal-text .resume:after {
+  content: '|';
+  opacity: 1;
+  animation: flashes .7s infinite;
+}
+
+@keyframes flashes {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 @media (max-width: 767px) {

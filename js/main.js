@@ -232,3 +232,16 @@ jQuery(document).ready(function($) {
  });
 
 });
+
+function typeWriter(element) {
+  const textArray = element.innerHTML.split('');
+  element.innerHTML = '';
+  textArray.forEach((item, idx) => {
+    setTimeout(() => {
+      element.innerHTML += item;
+    }, 75 * idx);
+  })
+}
+
+const resume = document.querySelector('#resume');
+typeWriter(resume);
