@@ -312,6 +312,7 @@ section {
 
 .about_me .about_img .my_Pic img {
   width: 100%;
+  border-radius: 50%;
 }
 
 .about_me .download-link {
