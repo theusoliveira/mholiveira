@@ -30,6 +30,12 @@ p {
   height: 100vh;
 }
 
+@media (min-width: 768px) {
+  .site-main, .site-main .row {
+    height: 100vh;
+  }
+}
+
 .site-main:before {
   content: "";
   position: absolute;
