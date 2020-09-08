@@ -14,7 +14,11 @@
 	</head>
 
 	<body>
-		<section class="site-main" style="background-image: url(images/image_1.jpg);">
+		<div class="loading-container" id="loading">
+				<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+		</div>
+
+		<section class="site-main" id="content" style="background-image: url(images/main.jpg); display: none;">
 			<div class="container">
 				<div class="row align-items-center justify-content-center">
 
@@ -41,9 +45,6 @@
 							<a class="social-icon" href="https://open.spotify.com/user/29fjvvymkhssth3mebiazm2bb?si=ZChlETT0RLyozpsuYN2i9g" target="_blank">
 								<i class="fab fa-spotify"></i>
 							</a>
-							<a class="social-icon" href="https://api.whatsapp.com/send?1=pt_BR&phone=553199008000" target="_blank">
-								<i class="fab fa-whatsapp"></i>
-							</a>
 						</div>
 
 						<p>©2020 Matheus Oliveira • Todos os direitos reservados</p>
@@ -52,5 +53,7 @@
 				</div>
 			</div>
 		</section>
+
+		<script src="js/all.js"></script>
 	</body>
 </html>
