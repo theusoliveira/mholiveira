@@ -131,7 +131,9 @@ p {
 
 
 /* main */
-.site-main {
+.section-main {
+  background-image: url(../images/main.jpg);
+  display: none;
   background-color: #ccc;
   background-size: cover;
   background-position: center center;
@@ -170,17 +172,17 @@ p {
   100% { opacity:1; }
 }
 
-.site-main, .site-main .row {
+.section-main, .section-main .row {
   height: 100vh;
 }
 
 @media (min-width: 768px) {
-  .site-main, .site-main .row {
+  .section-main, .section-main .row {
     height: 100vh;
   }
 }
 
-.site-main:before {
+.section-main:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -195,18 +197,18 @@ p {
   padding-top: 15rem !important;
 }
 
-.site-main h1 {
+.section-main h1 {
   font-weight: 200;
   margin-bottom: 20px;
   display: block;
 }
 
-.site-main h1 strong {
+.section-main h1 strong {
   font-weight: 800;
 }
 
 @media (min-width: 768px) {
-  .site-main h1 {
+  .section-main h1 {
     font-size: 70px;
   }
 }
