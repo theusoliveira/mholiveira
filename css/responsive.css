@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .section-main h1 {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 11px;
+  }
+}
+
+@media (max-height: 568px) {
+  .section-main h1 {
+    font-size: 35px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
