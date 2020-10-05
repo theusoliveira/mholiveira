@@ -176,12 +176,6 @@ p {
   height: 100vh;
 }
 
-@media (min-width: 768px) {
-  .section-main, .section-main .row {
-    height: 100vh;
-  }
-}
-
 .section-main:before {
   content: "";
   position: absolute;
@@ -201,16 +195,11 @@ p {
   font-weight: 200;
   margin-bottom: 20px;
   display: block;
+  font-size: 70px;
 }
 
 .section-main h1 strong {
   font-weight: 800;
-}
-
-@media (min-width: 768px) {
-  .section-main h1 {
-    font-size: 70px;
-  }
 }
 
 .letter-spacing {
